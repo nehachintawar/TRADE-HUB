@@ -102,17 +102,7 @@ Default: app runs at `http://localhost:3000`.
 ---
 
 
-## License
 
-This project is released under the MIT License. See `LICENSE` for details.
-
----
-
-## Contact
-
-Maintainer: *Neha Chintawar* — replace with your contact email or GitHub handle.
-
----
 
 *Thanks for checking out Trade Hub — happy hacking!*
 
