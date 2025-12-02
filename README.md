@@ -104,5 +104,5 @@ Default: app runs at `http://localhost:3000`.
 
 
 
-*Thanks for checking out Trade Hub — happy hacking!*
+*Thanks for checking out Trade Hub — happy coding!*
 
