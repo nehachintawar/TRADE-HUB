@@ -64,7 +64,7 @@ Create a `.env` file in both `backend/` and `frontend/` (if needed) with the fol
 
 ```
 PORT=3000
-MONGO_URL=mongodb+srv://chintawarneha59_db_user:nehachintawar@cluster0.silzlsk.mongodb.net/?appName=Cluster0
+MONGO_URL=mongodb+srv://<user>:<password>@cluster0.silzlsk.mongodb.net/?appName=Cluster0
 
 ```
 
