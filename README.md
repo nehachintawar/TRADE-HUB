@@ -101,20 +101,6 @@ Default: app runs at `http://localhost:3000`.
 
 ---
 
-## API Endpoints (Summary)
-
-> This is a brief overview — consult `backend/routes` for full route details.
-
-**Auth**
-
-* `POST /api/auth/signup` — Register new user
-* `POST /api/auth/login` — Login and receive JWT
-
-
-**Portfolio / Holdings**
-
-* `GET /api/holdings` — current user holdings
-* `GET /api/transactions` — trade history
 
 ## License
 
