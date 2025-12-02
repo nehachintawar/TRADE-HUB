@@ -17,14 +17,11 @@
 
 ## Key Features
 
-* Authentication: Signup / Login (JWT-based sessions)
 * User dashboard: watchlist, market snapshot, portfolio holdings
 * Mock order placement: Market / Limit orders (simulated)
 * Holdings view: current positions with P&L calculations
 * Transaction history: list of executed (mock) trades
-* Admin Dashboard: users list, pagination, view/edit/delete
-* Responsive UI built with Tailwind and shadcn components
-* Data tables using TanStack (React Table)
+* Responsive UI 
 
 ---
 
@@ -147,47 +144,6 @@ Default: app runs at `http://localhost:3000`.
 * `GET /api/instruments` — list of supported instruments
 * `GET /api/price/:symbol` — current (simulated) price
 
----
-
-## Data Model (Summary)
-
-* `User` — name, email, passwordHash, role, watchlist
-* `Order` — userId, symbol, qty, price, type, status, executedAt
-* `Holding` — userId, symbol, qty, avgPrice, currentPrice
-* `Transaction` — userId, orderId, symbol, qty, price, side, timestamp
-
----
-
-## Testing
-
-* Manual testing through UI for flows: signup/login, place order, view holdings, admin pagination.
-* Unit tests: add Jest + Supertest for API routes (optional)
-
----
-
-## Deployment
-
-* Backend: host on Render, Heroku, Railway, or VPS. Use environment variables for `MONGO_URI` and `JWT_SECRET`.
-* Frontend: Netlify, Vercel, or static host. If using client-side React, build and serve static files.
-* Use a managed MongoDB (Atlas) for production.
-
----
-
-## Roadmap / Next Steps
-
-* Integrate real-time price feeds (WebSocket) or third-party market data (if permitted)
-* Add order types (stop-loss, OCO)
-* Improve matching and order simulation engine
-* Add charts (candlestick) and historical data
-* Add multi-currency and margin simulation
-
----
-
-## Contributing
-
-Contributions are welcome. Please open an issue to discuss major changes and submit pull requests for bug fixes or features. Follow existing code style and include tests where applicable.
-
----
 
 ## License
 
@@ -197,7 +153,7 @@ This project is released under the MIT License. See `LICENSE` for details.
 
 ## Contact
 
-Maintainer: *Your Name* — replace with your contact email or GitHub handle.
+Maintainer: *Neha Chintawar* — replace with your contact email or GitHub handle.
 
 ---
 
