@@ -2,32 +2,6 @@
 
 **Trade Hub** is a learning project that replicates core features of a retail trading platform (inspired by Zerodha). It provides user authentication, market watchlists, portfolio holdings, and dashboard for managing users.
 
-> **Status:** Completed (MVP)
-
----
-
-## Table of Contents
-
-1. [Demo / Screenshots](#demo--screenshots)
-2. [Key Features](#key-features)
-3. [Tech Stack](#tech-stack)
-4. [Project Structure](#project-structure)
-5. [Prerequisites](#prerequisites)
-6. [Environment Variables](#environment-variables)
-7. [Local Setup (Development)](#local-setup-development)
-
-   * Backend
-   * Frontend
-8. [API Endpoints (Summary)](#api-endpoints-summary)
-9. [Data Model (Summary)](#data-model-summary)
-10. [Testing](#testing)
-11. [Deployment](#deployment)
-12. [Contributing](#contributing)
-13. [License](#license)
-14. [Contact](#contact)
-
----
-
 ## Demo / Screenshots
 
 *(Replace these placeholders with GIFs or images from `/frontend/public/screenshots` or a demo link.)*
