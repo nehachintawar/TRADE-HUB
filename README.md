@@ -2,19 +2,6 @@
 
 **Trade Hub** is a learning project that replicates core features of a retail trading platform (inspired by Zerodha). It provides user authentication, market watchlists, portfolio holdings, and dashboard for managing users.
 
-## Demo / Screenshots
-
-*(Replace these placeholders with GIFs or images from `/frontend/public/screenshots` or a demo link.)*
-
-* Landing / Home
-* Login / Signup
-* Dashboard (portfolio, watchlist)
-* Place Order modal
-* Holdings & Transaction History
-* Admin: Users table with pagination
-
----
-
 ## Key Features
 
 * User dashboard: watchlist, market snapshot, portfolio holdings
@@ -103,9 +90,10 @@ Default: server runs at `http://localhost:5000`.
 ### Frontend
 
 1. `cd frontend`
-2. `npm install`
-3. Create `frontend/.env` (see above)
-4. `npm run dev` or `npm start`
+2. `cd dashboard`
+3. `npm install`
+4. Create `frontend/.env` (see above)
+5. `npm run dev` or `npm start`
 
 Default: app runs at `http://localhost:3000`.
 
@@ -122,28 +110,11 @@ Default: app runs at `http://localhost:3000`.
 * `POST /api/auth/signup` — Register new user
 * `POST /api/auth/login` — Login and receive JWT
 
-**Users**
-
-* `GET /api/users` — (admin) list users (supports pagination, filter)
-* `GET /api/users/:id` — get user profile
-* `PUT /api/users/:id` — update user
-* `DELETE /api/users/:id` — delete user
-
-**Orders / Trading (mock)**
-
-* `POST /api/orders` — place an order (market/limit) — simulated execution
-* `GET /api/orders` — list user's orders
 
 **Portfolio / Holdings**
 
 * `GET /api/holdings` — current user holdings
 * `GET /api/transactions` — trade history
-
-**Market / Instruments**
-
-* `GET /api/instruments` — list of supported instruments
-* `GET /api/price/:symbol` — current (simulated) price
-
 
 ## License
 
